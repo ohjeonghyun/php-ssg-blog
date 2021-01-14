@@ -332,4 +332,34 @@ padding-bottom:var(--mobile-top-bar__height);
 
 
 /* 토스트 ul 끝 */
+
+/* 마우스 커서 시작 */
+
+.cursor {
+  position:fixed;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background-color:#35C42D;
+  mix-blend-mode:none;
+  pointer-events:none;
+  transform:translateX(-50%) translateY(-50%);
+  z-index:100;
+  transition:width .1s, height .1s;
+}
+
+.cursor-shadow {
+  position:fixed;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background-color:#A6E0A3;
+  mix-blend-mode:pink;
+  pointer-events:none;
+  transform:translateX(-50%) translateY(-50%);
+  transition:width .1s, height .1s, top .1s, left .1s;
+  z-index:99;
+}
+/* 마우스 커서 끝*/
+
 /* 커스텀 끝 */
