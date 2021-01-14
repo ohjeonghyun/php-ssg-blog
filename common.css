@@ -189,6 +189,40 @@ a {
 
 /* 탑바 끝 */
 
+
+/* 게시물 리스트 박스 시작 */
+
+.article-list-box {
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:30px;
+}
+.article-list-box__writer{
+  display:flex;
+  align-items:center;
+  margin-top:5px;
+}
+
+.article-list-box__writer>span:last-child{
+  width:60px;
+  height:60px;
+  background-color:#ADCEAB;
+overflow:hidden;
+  border-radius:50%;
+  margin-left:10px;
+}
+
+.article-list-box > ul > li {
+  border-top:2px dotted black;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.article-list-box__reg-date::before {
+  content:"작성 : ";
+}
+/* 게시물 리스트 박스 끝 */
+
 /* 모바일 탑바 시작 */
 :root {
   --mobile-top-bar__height:70px;
@@ -332,6 +366,25 @@ padding-bottom:var(--mobile-top-bar__height);
 
 
 /* 토스트 ul 끝 */
+
+
+/* svg 시작 */
+
+.svgs{
+  width:0;
+  height:0;
+  overflow:hidden;
+}
+
+
+.svgs > *{
+  display:block;
+}
+
+/* svg 끝 */
+
+
+
 
 /* 마우스 커서 시작 */
 
