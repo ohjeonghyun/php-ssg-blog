@@ -91,32 +91,5 @@ EditorViewer__init();
 
 /* 마우스 커서 시작 */
 
-const $cursor = $('.cursor');
-const $cursorSahdow = $('.cursor-shadow');
 
-$(window).mousemove(function(e) {
-  $cursor.css({
-    top:e.clientY,
-    left:e.clientX
-  });
-  
-  $cursorSahdow.css({
-    top:e.clientY,
-    left:e.clientX
-  });
-});
-
-$('.cursor-big').mouseenter(function() {
-  $('html').addClass('need-to-cursor-big');
-});
-
-$('.cursor-big').mouseleave(function() {
-  $('html').removeClass('need-to-cursor-big');
-});
-
-
-
-
-
-MobileTopBar__init();
 /* 마우스 커서 끝 */
