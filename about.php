@@ -15,11 +15,9 @@ require_once "head.php";
   </main>
 
 
-
-    
+    <!--메인 끝 -->
+        
 <?php
 require_once "foot.php";
 ?>
   
-    <!--메인 끝 -->
-        
