@@ -8,7 +8,7 @@ require_once "head.php";
   <main>
     <section class="section-latest-articles con-min-width">
       <dh1 class="con">
-          <span>POTOFOLIO</span>
+          <span>PORTFOLIO</span>
           </h1>
        
     </section>
