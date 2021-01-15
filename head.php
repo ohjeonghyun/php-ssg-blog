@@ -53,7 +53,7 @@
             <nav class="top-bar__menu-box-1 height-100p">
               <ul class="flex height-100p">
                 <li>
-                  <a href="index.ssghtml" class="flex flex-jc-c flex-ai-c height-100p">
+                  <a href="index.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
                     <span><i class="fas fa-home"></i></span>
                     <span>HOME</span>
                   </a>
