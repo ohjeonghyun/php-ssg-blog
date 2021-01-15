@@ -53,7 +53,7 @@
             <nav class="top-bar__menu-box-1 height-100p">
               <ul class="flex height-100p">
                 <li>
-                  <a href="#" class="flex flex-jc-c flex-ai-c height-100p">
+                  <a href="./" class="flex flex-jc-c flex-ai-c height-100p">
                     <span><i class="fas fa-home"></i></span>
                     <span>HOME</span>
                   </a>
@@ -143,9 +143,7 @@
         
           
           <!--메인 시작 -->
-<?php
-require_once "head.php";
-?>
+
   <main>
     <section class="section-latest-articles con-min-width">
       <div class="con">
@@ -236,9 +234,6 @@ uBfr_oQvxys
   </main>
 
     
-<?php
-require_once "head.php";
-?>
   
     <!--메인 끝 -->
         

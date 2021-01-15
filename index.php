@@ -92,29 +92,6 @@ uBfr_oQvxys
     </section>
   </main>
 
-    
-<?php
-require_once "head.php";
-?>
-  
-    <!--메인 끝 -->
-        
-        <!-- 버텀 바 시작 -->
-        
-        <div class="bottom-bar con-min-width">
-          <div class="con flex flex-jc-c">
-           <a href="#" class="logo">
-              <span><i class="fab fa-envira"></i></span>
-              <span>Design Jasmin</span>
-            </a>
-          </div>
-          </div>
-        </div>
-          
-        
-        
-        </div>
-
         <?php
 require_once "foot.php";
 ?>
