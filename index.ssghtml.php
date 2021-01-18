@@ -17,10 +17,11 @@ require_once "head.php";
             <li>
             <h1 class="article-list-box__title"><a href="article_detail_<?=$article["id"]?>.ssghtml.php"><?=$article["title"]?></a></h1>
           <div class="article-list-box__reg-date"><?=$article["regDate"]?></div>
-          <span><?=$article["writerName"]?></span>
-            <span><?=$article["writerAvatar"]?></span></span>
-                   </div>
-                          </div>
+          <div class="article-list-box__writer">
+            <span><?=$article3["writerName"]?></span>
+            <span><?=$article3["writerAvatar"]?></span>
+           
+          </div>
               <div class="body">
                 <script type="text/x-template">
 # CSS 적용방법
@@ -62,9 +63,12 @@ https://codepen.io/cuhjmuvf/embed/MWjPwbG?height=265&theme-id=light&default-tab=
             <li>
             <h1 class="article-list-box__title"><a href="article_detail_<?=$article["id"]?>.ssghtml.php"><?=$article["title"]?></a></h1>
           <div class="article-list-box__reg-date"><?=$article["regDate"]?></div>
-          <span><?=$article["writerName"]?></span>
-            <span><?=$article["writerAvatar"]?></span></span>
-                   </div>
+          <div class="article-list-box__writer">
+            <span><?=$article3["writerName"]?></span>
+            <span><?=$article3["writerAvatar"]?></span>
+            <span><?=$article["writerName"]?></span>
+            <span><?=$article["writerAvatar"]?></span>
+          </div>
               <div class="body">
                 <script type="text/x-template">
 # css 의미
