@@ -16,9 +16,7 @@ require_once "head.php";
                           <span><svg viewbox= "0 0 264 280" width="50">
     <use xlink:href="#avatar-1"></use>
   </svg></span>
-                          
-    <use xlink:href="#avatar-1"></use>
-  </svg></span> </div>
+                          </div>
               <div class="body">
                 <script type="text/x-template">
 # CSS 적용방법
