@@ -17,7 +17,7 @@ require_once "head.php";
     </h1>
 </section>
 
-<section class="section-article-detail con-min-width">
+<section class="section-article-detail con-min-width padding-0-10">
     <div class="con">
         <h1 class="article-list-box__title"><a href="article_detail_2.ssghtml.php"><?=$selectedArticle["title"]?></a></h1>
 

@@ -9,9 +9,10 @@ require_once "head.php";
   <main>
     <section class="section-latest-articles con-min-width">
       <h1 class="con">
-          <span>About</span>
-          </h1>
-       
+      <span><i class="far fa-address-card"></i>
+          </span>
+          <span>ABOUT</span>
+       </h1>
     </section>
   </main>
 

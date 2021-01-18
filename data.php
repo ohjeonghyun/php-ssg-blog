@@ -2,9 +2,30 @@
 
 $siteTitle = "디자이너 오정현";
 
+
+// 게시물 4
+$article4 = [];
+$article4["id"] = 4;
+$article4["title"] = "CSS 기초 4";
+$article4["regDate"] = "2020-01-18 17:28:15";
+$article4["writerName"] = "오정현";
+$article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article4["body"] = <<<EOT
+# 개요
+- 
+EOT;
+
+// 게시물 3
+$article3 = [];
+$article3["id"] = 3;
+$article3["title"] = "CSS 기초 3";
+$article3["regDate"] = "2020-01-18 12:12:15";
+$article3["writerName"] = "오정현";
+
 // 게시물 2
 $article2 = [];
-$article2["title"] = "CSS 기초";
+$article3["id"] = 2;
+$article2["title"] = "CSS 기초 2";
 $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "오정현";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
@@ -26,7 +47,8 @@ EOT;
 
 // 게시물 1
 $article1 = [];
-$article1["title"] = "CSS기초";
+$article3["id"] = 1;
+$article1["title"] = "CSS기초 1";
 $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "오정현";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';

@@ -10,12 +10,11 @@ require_once "head.php";
         <div class="article-list-box">
           <ul>
             <li>
-                <h1 class="article-list-box__title"><a href="article_detail_2.ssghtml.php"><?=$article2["title"]?></a> </h1>
-                <div class="article-list-box__reg-date"><?=$article2["regDate"]?></div>
-                          <div class="article-list-box__writer">< <span><?=$article2["writerName"]?></span>
-                          <span><svg viewbox= "0 0 264 280" width="50">
-    <use xlink:href="#avatar-1"></use>
-  </svg></span>
+            <h1 class="article-list-box__title"><a href="article_detail_<?=$article["id"]?>.ssghtml.php"><?=$article["title"]?></a></h1>
+          <div class="article-list-box__reg-date"><?=$article["regDate"]?></div>
+          <span><?=$article["writerName"]?></span>
+            <span><?=$article["writerAvatar"]?></span></span>
+                   </div>
                           </div>
               <div class="body">
                 <script type="text/x-template">
@@ -56,12 +55,10 @@ https://codepen.io/cuhjmuvf/embed/MWjPwbG?height=265&theme-id=light&default-tab=
               </div>
             </li>
             <li>
-                <h1 class="article-list-box__title"><a href="article_detail_1.ssghtml.php"><?=$article1["title"]?></a></h1>
-                <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
-                   <div class="article-list-box__writer"><span>오정현</span>
-                   <span><svg viewbox= "0 0 264 280" width="50">
-    <use xlink:href="#avatar-1"></use>
-  </svg></span>
+            <h1 class="article-list-box__title"><a href="article_detail_<?=$article["id"]?>.ssghtml.php"><?=$article["title"]?></a></h1>
+          <div class="article-list-box__reg-date"><?=$article["regDate"]?></div>
+          <span><?=$article["writerName"]?></span>
+            <span><?=$article["writerAvatar"]?></span></span>
                    </div>
               <div class="body">
                 <script type="text/x-template">
@@ -85,10 +82,11 @@ https://codepen.io/cuhjmuvf/embed/MWjPwbG?height=265&theme-id=light&default-tab=
 uBfr_oQvxys
 ```
                 </script>
-                <script type="text/x-template"><?=$article1["body"]?></script>
+                <script type="text/x-template"><?=$article['body']?></script>
                 <div class="toast-ui-viewer"></div>
               </div>
             </li>
+            <?php } ?>
           </ul>
         </div>
       </div>

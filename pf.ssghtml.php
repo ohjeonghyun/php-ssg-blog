@@ -8,11 +8,16 @@ require_once "head.php";
 
   <main>
     <section class="section-latest-articles con-min-width">
-      <dh1 class="con">
-          <span>PORTFOLIO</span>
-          </h1>
-       
+    <h1 class="con">
+            <span>
+                <i class="fas fa-list-alt"></i>
+            </span>
+            <span>
+              PORTFOLIO  
+            </span>
+        </h1>
     </section>
+     
   </main>
 
 
