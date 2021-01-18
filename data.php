@@ -21,10 +21,13 @@ $article3["id"] = 3;
 $article3["title"] = "CSS 기초 3";
 $article3["regDate"] = "2020-01-18 12:12:15";
 $article3["writerName"] = "오정현";
-
+$article3["body"] = <<<EOT
+# 개요
+- 
+EOT;
 // 게시물 2
 $article2 = [];
-$article3["id"] = 2;
+$article2["id"] = 2;
 $article2["title"] = "CSS 기초 2";
 $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "오정현";
@@ -47,7 +50,7 @@ EOT;
 
 // 게시물 1
 $article1 = [];
-$article3["id"] = 1;
+$article1["id"] = 1;
 $article1["title"] = "CSS기초 1";
 $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "오정현";
