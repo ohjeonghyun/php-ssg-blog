@@ -21,10 +21,12 @@ $article3["id"] = 3;
 $article3["title"] = "CSS 기초 3";
 $article3["regDate"] = "2020-01-18 12:12:15";
 $article3["writerName"] = "오정현";
+$article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article3["body"] = <<<EOT
 # 개요
 - 
 EOT;
+
 // 게시물 2
 $article2 = [];
 $article2["id"] = 2;
