@@ -31,18 +31,19 @@ $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "오정현";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article1["body"] = <<<EOT
-# 태그
-```codepen
-https://codepen.io/jangka44/embed/NWROGrL?height=265&theme-id=light&default-tab=html,result&editable=true
-```
-  
-# 콘솔
-```codepen
-https://codepen.io/jangka44/embed/zYKmvoG?height=300&theme-id=light&default-tab=js,result&editable=true
-```
-# 참고영상
-```youtube
-CmgCsCkjNWo
+
+
+# css 의미
+## 개요
+- Css는 웹문서에서 스타일을 담당하고 있습니다. 
+- 미리 약속한 스타일 속성들을 통해 웹문서에 작성하면 이에 따라 웹문서가 디자인되어 화면에 표시됩니다. 
+- 웹문서에서 스타일은 글꼴, 색상, 정렬, 배치 방법 등 여러가지가 있습니다. 겉모습을 결정시키는 요소입니다.
+
+
+```html
+
+
+
 ```
 EOT;
 
