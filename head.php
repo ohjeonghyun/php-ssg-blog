@@ -32,7 +32,7 @@
 
 <link rel="stylesheet" href="common.css">
     <script defer src="common.js"></script>
-    <title>디자이너 오정현</title>
+    <title><?=$siteTitle?></title>
 </head>
 <body>
 

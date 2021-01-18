@@ -384,6 +384,12 @@ padding-bottom:var(--mobile-top-bar__height);
 /* svg 끝 */
 
 
+/* 게시물 댓글 박스 시작 */
+.section-article-reply-box {
+  margin-top:20px;
+}
+/* 게시물 댓글 박스 끝 */
+
 
 
 /* 마우스 커서 시작 */
