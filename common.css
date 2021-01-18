@@ -326,6 +326,7 @@ padding-bottom:var(--mobile-top-bar__height);
 .bottom-bar {
   background-color:#9cc31d;
   color:white;
+  margin-top:30px;
 }
 .bottom-bar > .con {
   padding-top:10px;
