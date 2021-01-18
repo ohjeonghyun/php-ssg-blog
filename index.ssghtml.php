@@ -10,7 +10,7 @@ require_once "head.php";
         <div class="article-list-box">
           <ul>
             <li>
-                <h1 class="title">2화, <?=$article2["title"]? </h1>
+                <h1 class="article-list-box__title"><a href="article_detail_2.ssghtml.php"><?=$article2["title"]?></a> </h1>
                 <div class="article-list-box__reg-date"><?=$article2["regDate"]?></div>
                           <div class="article-list-box__writer">< <span><?=$article2["writerName"]?></span>
                           <span><?=$article2["writerAvatar"]?></span>
@@ -56,7 +56,7 @@ https://codepen.io/cuhjmuvf/embed/MWjPwbG?height=265&theme-id=light&default-tab=
               </div>
             </li>
             <li>
-                <h1 class="title">1화, CSS란?</h1>
+                <h1 class="article-list-box__title"><a href="article_detail_1.ssghtml.php"><?=$article1["title"]?></a></h1>
                 <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
                    <div class="article-list-box__writer"><span>오정현</span>
                    <span><svg viewbox= "0 0 264 280" width="50">

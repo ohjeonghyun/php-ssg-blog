@@ -46,7 +46,7 @@
   
         <header class="top-bar con-min-width visible-md-up">
           <div class="con height-100p flex flex-jc-sb">
-            <a href=""index.ssghtml.php class="logo">
+            <a href="index.ssghtml.php" class="logo">
               <span><i class="fab fa-envira"></i></span>
               <span>Design Jasmin</span>
             </a>
