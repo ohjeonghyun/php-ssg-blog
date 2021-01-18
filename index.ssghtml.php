@@ -13,7 +13,9 @@ require_once "head.php";
                 <h1 class="article-list-box__title"><a href="article_detail_2.ssghtml.php"><?=$article2["title"]?></a> </h1>
                 <div class="article-list-box__reg-date"><?=$article2["regDate"]?></div>
                           <div class="article-list-box__writer">< <span><?=$article2["writerName"]?></span>
-                          <span><?=$article2["writerAvatar"]?></span>
+                          <span><svg viewbox= "0 0 264 280" width="50">
+    <use xlink:href="#avatar-1"></use>
+  </svg></span>
                           
     <use xlink:href="#avatar-1"></use>
   </svg></span> </div>
