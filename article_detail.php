@@ -35,18 +35,14 @@ require_once "head.php";
     </div>
 </section>
 
-<?php
-require_once "foot.php";
-?> 
-
 <section class="section-article-reply-box con-min-width">
 <div class="con">
 <div id="disqus_thread"></div>
 
 <script>
 var disqus_config = function () {
-				        this.page.url = 'https://jasminhyun.xyz/article_detail<?=$articleId?>.html';
-				        this.page.identifier = 'article_detail<?=$articleId?>.html';
+				        this.page.url = 'https://jasminhyun.xyz/article_detail_<?=$articleId?>.html';
+				        this.page.identifier = 'article_detail_<?=$articleId?>.html';
     };
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
@@ -58,3 +54,7 @@ var disqus_config = function () {
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 </section>
+<?php
+require_once "foot.php";
+?> 
+
