@@ -9,7 +9,7 @@ require_once "head.php";
       <div class="con">
         <div class="article-list-box">
           <ul>
-          <?php for ( $i = 4; $i >= 1; $i-- ) { ?>
+          <?php for ( $i = 5; $i >= 1; $i-- ) { ?>
         <?php
         $articleVarName = "article" . $i;
         $article = $$articleVarName;
@@ -66,8 +66,7 @@ https://codepen.io/cuhjmuvf/embed/MWjPwbG?height=265&theme-id=light&default-tab=
           <div class="article-list-box__writer">
             <span><?=$article3["writerName"]?></span>
             <span><?=$article3["writerAvatar"]?></span>
-            <span><?=$article["writerName"]?></span>
-            <span><?=$article["writerAvatar"]?></span>
+           
           </div>
               <div class="body">
                 <script type="text/x-template">
