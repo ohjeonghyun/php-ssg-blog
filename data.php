@@ -1,15 +1,19 @@
 <?php
+require_once "util.php";
+require_once "app.php";
 
 $siteTitle = "디자이너 오정현";
 
 // 게시물 5
+
 $article5 = [];
 $article5["id"] = 5;
 $article5["title"] = "CSS  색";
 $article5["regDate"] = "2020-01-21 17:28:15";
 $article5["writerName"] = "오정현";
 $article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article5["body"] = <<<EOT
+$article5["tags"]=["CSS"]; 
+$article5["body"] = <<<'EOT'
 # 개요
 
 CSS에서 색을 표현하는 방법에는 다음과 같이 세 가지 방법이 있습니다. 
@@ -70,7 +74,8 @@ $article4["title"] = "CSS 기초 4";
 $article4["regDate"] = "2020-01-18 17:28:15";
 $article4["writerName"] = "오정현";
 $article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article4["body"] = <<<EOT
+$article4["tags"]=["CSS"];
+$article4["body"] = <<<'EOT'
 # 개요
 
 스타일 적용의 우선순위
@@ -112,7 +117,8 @@ $article3["title"] = "CSS 기초 3";
 $article3["regDate"] = "2020-01-18 12:12:15";
 $article3["writerName"] = "오정현";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article3["body"] = <<<EOT
+$article3["tags"]=["CSS"];
+$article3["body"] = <<<'EOT'
 # 개요
 
 CSS를 적용하는 방법
@@ -156,6 +162,7 @@ $article2["title"] = "CSS 기초 2";
 $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "오정현";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article2["tags"]=["CSS"];
 $article2["body"] = <<<EOT
 # 개요
 - script 태그를 사용해야 한다.
@@ -179,7 +186,8 @@ $article1["title"] = "CSS기초 1";
 $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "오정현";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article1["body"] = <<<EOT
+$article1["tags"]=["CSS"];
+$article1["body"] = <<<'EOT'
 
 
 # css 의미

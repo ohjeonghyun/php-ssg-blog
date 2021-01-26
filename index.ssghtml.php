@@ -2,6 +2,8 @@
 <?php
 require_once "data.php";
 require_once "head.php";
+$articles = &getArticles();
+?>
 ?>  
 <!--메인 시작 -->
   <main>
@@ -9,18 +11,17 @@ require_once "head.php";
       <div class="con">
         <div class="article-list-box">
           <ul>
-          <?php for ( $i = 5; $i >= 1; $i-- ) { ?>
-        <?php
-        $articleVarName = "article" . $i;
-        $article = $$articleVarName;
-        ?>
+          <?php foreach ( $articles as $article ) { ?>
             <li>
-            <h1 class="article-list-box__title"><a href="article_detail_<?=$article["id"]?>.ssghtml.php"><?=$article["title"]?></a></h1>
+            <h1 class="article-list-box__title"><a href="<?=getArticleLink($article["id"])?>"><?=$article["title"]?></a></h1>
           <div class="article-list-box__reg-date"><?=$article["regDate"]?></div>
           <div class="article-list-box__writer">
             <span><?=$article3["writerName"]?></span>
             <span><?=$article3["writerAvatar"]?></span>
            
+          </div>
+          <div class="article-list-box__tags">
+            <?=getArticleTagsHtml($article["id"])?>
           </div>
               <div class="body">
                 <script type="text/x-template">
@@ -59,45 +60,9 @@ https://codepen.io/cuhjmuvf/embed/MWjPwbG?height=265&theme-id=light&default-tab=
                 </script>
                 <div class="toast-ui-viewer"></div>
               </div>
-            </li>
-            <li>
-            <h1 class="article-list-box__title"><a href="article_detail_<?=$article["id"]?>.ssghtml.php"><?=$article["title"]?></a></h1>
-          <div class="article-list-box__reg-date"><?=$article["regDate"]?></div>
-          <div class="article-list-box__writer">
-            <span><?=$article3["writerName"]?></span>
-            <span><?=$article3["writerAvatar"]?></span>
-           
+            </li> 
+             <?php } ?>
           </div>
-              <div class="body">
-                <script type="text/x-template">
-# css 의미
-## 개요
-- Css는 웹문서에서 스타일을 담당하고 있습니다. 
-- 미리 약속한 스타일 속성들을 통해 웹문서에 작성하면 이에 따라 웹문서가 디자인되어 화면에 표시됩니다. 
-- 웹문서에서 스타일은 글꼴, 색상, 정렬, 배치 방법 등 여러가지가 있습니다. 겉모습을 결정시키는 요소입니다.
-
-
-```html
-
-
-
-```
-  
-  <h1> vlog </h1>
-             
-  
-```youtube
-uBfr_oQvxys
-```
-                </script>
-                <script type="text/x-template"><?=$article['body']?></script>
-                <div class="toast-ui-viewer"></div>
-              </div>
-            </li>
-            <?php } ?>
-          </ul>
-        </div>
-      </div>
     </section>
   </main>
 
