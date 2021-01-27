@@ -14,6 +14,11 @@ function MobileTopBar__init() {
   });
 }
 
+MobileTopBar__init();
+
+
+
+
 
 /* 토스트 UI 시작 */
 
@@ -86,10 +91,5 @@ function EditorViewer__init() {
   });
 }
 EditorViewer__init();
+
 /* 토스트 UI 끝 */
-
-
-/* 마우스 커서 시작 */
-
-
-/* 마우스 커서 끝 */

@@ -1,3 +1,22 @@
+
+<?php
+if ( !isset($pageTitle) ) {
+  $pageTitle = $siteTitle;
+}
+
+if ( !isset($pageDescription) ) {
+  $pageDescription = $siteDescription;
+}
+
+if ( !isset($pageKeywordsStr) ) {
+  $pageKeywordsStr = $siteKeywordsStr;
+}
+
+if ( !isset($pageThumbUrl) ) {
+  $pageThumbUrl = $siteThumbUrl;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="ko">
 
