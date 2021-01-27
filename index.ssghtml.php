@@ -4,8 +4,8 @@ require_once "head.php";
 
 $articles = &getArticles();
 ?>
-<link rel="stylesheet" href="css/common.css">
-<script src="js/common.js" defer></script>
+<link rel="stylesheet" href="css/index.css">
+<script src="js/index.js" defer></script>
 
 <section class="section-title con-min-width">
   <h1 class="con">
