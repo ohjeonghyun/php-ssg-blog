@@ -3,6 +3,22 @@ require_once "util.php";
 require_once "app.php";
 
 $siteTitle = "디자이너 오정현";
+$siteDescription = "디자이너  오정현 기술 블로그";
+$siteKeywordsStr = "CSS, HTML, JS";
+$siteName = "DESIGN Jasmin";
+$siteThumbUrl = "https://i.postimg.cc/mDPYzmdJ/image.jpg";
+
+// 태그정보 시작
+$tagInfos = [
+    "js" => [
+        //"pageThumbUrl" => "자바스크립트 관련 글 전용 이미지"
+        //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
+    ],
+    "CSS" => [
+        "pageThumbUrl" => "https://i.postimg.cc/XNt9zMLz/css-logo.jpg"
+    ]
+];
+// 태그정보 끝
 
 // 게시물 5
 
