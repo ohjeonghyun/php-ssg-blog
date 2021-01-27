@@ -157,7 +157,7 @@ a {
 
 /* 탑바 시작 */
 .top-bar {
-  background: linear-gradient(to bottom right, #44af38,#bcdf4c);
+  background-color:#9cc31d;
   box-shadow:5px 1px 30px 8px rgba(0,0,0,0.2);
   color:white;
   height:100px;
@@ -243,7 +243,7 @@ overflow:hidden;
 }
 
 .mobile-top-bar {
-  background: linear-gradient(to bottom right, #44af38,#bcdf4c);
+  background-color:#9cc31d;
   color:white;
   height:var(--mobile-top-bar__height);
   box-shadow:5px 1px 30px 8px rgba(0,0,0,0.2);
@@ -304,12 +304,11 @@ overflow:hidden;
   width:100%;
 bottom:0;
   color:white;
-  background: linear-gradient(to bottom right, #44af38,#bcdf4c);
+  background-color:#9cc31d;
 padding-bottom:var(--mobile-top-bar__height);
   transition:left .3s;
   display:flex;
   align-items:center;
-  z-index:10;
  
 }
 
@@ -339,7 +338,7 @@ padding-bottom:var(--mobile-top-bar__height);
 
 /* 버텀바 시작 */
 .bottom-bar {
-  background: linear-gradient(to bottom right, #44af38,#bcdf4c);
+  background-color:#9cc31d;
   color:white;
   margin-top:30px;
 }
