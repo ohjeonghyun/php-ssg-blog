@@ -309,6 +309,7 @@ padding-bottom:var(--mobile-top-bar__height);
   transition:left .3s;
   display:flex;
   align-items:center;
+  z-index:10;
  
 }
 

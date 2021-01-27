@@ -20,6 +20,53 @@ $tagInfos = [
 ];
 // 태그정보 끝
 
+
+// 태그정보 끝
+
+// 게시물 6
+
+$article6 = [];
+$article6["id"] = 6;
+$article6["title"] = "CSS  배경";
+$article6["regDate"] = "2020-01-28 00:06:15";
+$article6["writerName"] = "오정현";
+$article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article6["tags"]= ["CSS"]; 
+$article6["body"] = <<<'EOT'
+# 개요
+
+CCSS에서 사용할 수 있는 background 속성은 다음과 같습니다.
+
+ 
+
+1. background-color
+
+2. background-image
+
+3. background-repeat
+
+4. background-position
+
+5. background-attachment
+
+
+
+background	- 모든 background 속성을 이용한 스타일을 한 줄에 설정할 수 있음.
+background-color -	HTML 요소의 배경색을 설정함.
+background-image -	HTML 요소의 배경 이미지를 설정함.
+background-repeat -	설정된 배경 이미지의 반복 유무를 설정함.
+background-position -	반복되지 않는 배경 이미지의 상대 위치를 설정함.
+background-attachment -	배경 이미지를 스크롤과는 무관하게 해당 위치에 고정시킴.
+
+
+
+```
+
+EOT;
+
+
+
+
 // 게시물 5
 
 $article5 = [];
