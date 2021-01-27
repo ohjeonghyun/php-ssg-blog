@@ -136,37 +136,12 @@ $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar
 $article3["tags"]= ["CSS"];
 $article3["body"] = <<<'EOT'
 # 개요
+# CSS 적용방법
+## 개요
+- Css 파일을 만드는 법은 htnl과 같이 단순히 확장자를 css로 지정하면 된다.
+- 웹문서에 해당 css파일을 가져오고 싶은 경우 link 태그를 사용합니다. 
+- 위 코드와 같이 경로와 타입, 스타일 시트임을 표시하면 웹문서에 바로 스타일을 적용할 수 있습니다.
 
-CSS를 적용하는 방법
-HTML 문서에 CSS 스타일을 적용할 때에는 다음과 같이 세 가지 방법을 사용할 수 있습니다.
-
- 
-
-1. 인라인 스타일(Inline style)
-
-2. 내부 스타일 시트(Internal style sheet)
-
-3. 외부 스타일 시트(External style sheet)
-
-인라인 스타일(Inline style)
-인라인 스타일이란 HTML 요소 내부에 style 속성을 사용하여 CSS 스타일을 적용하는 방법입니다.
-
-이러한 인라인 스타일은 해당 요소에만 스타일을 적용할 수 있습니다.
-
-
-- 
-
-```html
-<body>
-
-    <h2 style="color:green; text-decoration:underline">
-
-        인라인 스타일을 이용하여 스타일을 적용하였습니다.
-
-    </h2>
-
-</body>
-```
 
 
 EOT;
