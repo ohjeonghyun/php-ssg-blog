@@ -163,7 +163,7 @@ $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "오정현";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article2["tags"]=["CSS"];
-$article2["body"] = <<<EOT
+$article2["body"] = <<<'EOT'
 # 개요
 - script 태그를 사용해야 한다.
 - src 속성으로 외부 스크립트를 불러올 수 있다.
