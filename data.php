@@ -12,7 +12,7 @@ $article5["title"] = "CSS  색";
 $article5["regDate"] = "2020-01-21 17:28:15";
 $article5["writerName"] = "오정현";
 $article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article5["tags"]=["CSS"]; 
+$article5["tags"]= ["CSS"]; 
 $article5["body"] = <<<'EOT'
 # 개요
 
@@ -74,7 +74,7 @@ $article4["title"] = "CSS 기초 4";
 $article4["regDate"] = "2020-01-18 17:28:15";
 $article4["writerName"] = "오정현";
 $article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article4["tags"]=["CSS"];
+$article4["tags"]= ["CSS"];
 $article4["body"] = <<<'EOT'
 # 개요
 
@@ -117,7 +117,7 @@ $article3["title"] = "CSS 기초 3";
 $article3["regDate"] = "2020-01-18 12:12:15";
 $article3["writerName"] = "오정현";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article3["tags"]=["CSS"];
+$article3["tags"]= ["CSS"];
 $article3["body"] = <<<'EOT'
 # 개요
 
@@ -162,7 +162,7 @@ $article2["title"] = "CSS 기초 2";
 $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "오정현";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article2["tags"]=["CSS"];
+$article2["tags"]= ["CSS"];
 $article2["body"] = <<<'EOT'
 # 개요
 - script 태그를 사용해야 한다.
