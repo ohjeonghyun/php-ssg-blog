@@ -157,7 +157,7 @@ a {
 
 /* 탑바 시작 */
 .top-bar {
-  background:linear-gradient(to right bottom, #9cc31d,#17860B);
+  background-color:#9cc31d;
   box-shadow:5px 1px 30px 8px rgba(0,0,0,0.2);
   color:white;
   height:100px;
@@ -243,7 +243,7 @@ overflow:hidden;
 }
 
 .mobile-top-bar {
-  background:linear-gradient(to right bottom, #9cc31d,#17860B);
+  background-color:#9cc31d;
   color:white;
   height:var(--mobile-top-bar__height);
   box-shadow:5px 1px 30px 8px rgba(0,0,0,0.2);
