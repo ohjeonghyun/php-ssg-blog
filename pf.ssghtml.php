@@ -1,28 +1,22 @@
-          
-<?php
+?php
 require_once "data.php";
 require_once "head.php";
-?>       
+?>
 
-<!--메인 시작 -->
+<link rel="stylesheet" href="css/about.css">
+<script src="js/about.js" defer></script>
 
-  <main>
-    <section class="section-latest-articles con-min-width">
-    <h1 class="con">
-            <span>
-                <i class="fas fa-list-alt"></i>
-            </span>
-            <span>
-              PORTFOLIO  
-            </span>
-        </h1>
-    </section>
-     
-  </main>
+<section class="section-title con-min-width">
+  <h1 class="con">
+    <span>
+      <i class="fas fa-list-ol"></i>
+    </span>
+    <span>
+      PORFOLIO
+    </span>
+  </h1>
+</section>
 
-
-
-    
 <?php
 require_once "foot.php";
 ?>

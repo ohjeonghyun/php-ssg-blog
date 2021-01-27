@@ -1,24 +1,5 @@
-?php
-require_once "data.php";
-require_once "head.php";
-?>
 
-<link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
-
-<section class="section-title con-min-width">
-  <h1 class="con">
-    <span>
-      <i class="fas fa-list-ol"></i>
-    </span>
-    <span>
-      PORFOLIO
-    </span>
-  </h1>
-</section>
-
-
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="ko">
 
 <head>
@@ -34,9 +15,7 @@ require_once "head.php";
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-Notice: Undefined variable: siteTitle in C:\Users\SBS-\Documents\GitHub\php-ssg-blog\head.php on line 17
-</title>
+    <title>디자이너 오정현 - CSS기초 1</title>
 
     <!-- 반응형 필수 -->
     <meta name="viewport" content="width=device-width, user-scalable=no" />
@@ -272,7 +251,73 @@ Notice: Undefined variable: siteTitle in C:\Users\SBS-\Documents\GitHub\php-ssg-
 
     <script src="common.js"></script>
 </body>
-</html><div class="bottom-bar con-min-width">
+</html>
+<section class="section-title con-min-width">
+    <h1 class="con">
+        <span>
+            <i class="fas fa-newspaper"></i>
+        </span>
+        <span>
+            DETAIL
+        </span>
+    </h1>
+</section>
+
+<section class="section-article-detail padding-0-10 con-min-width">
+    <div class="con">
+        <h1 class="article-list-box__title">CSS기초 1</h1>
+
+        <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+        
+        <div class="article-list-box__writer">
+            <span>오정현</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+        </div>
+
+        <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_CSS.html">#CSS</a>        </div>
+        
+        <div class="article-list-box__body">
+            <script type="text/x-template">
+
+# css 의미
+## 개요
+- Css는 웹문서에서 스타일을 담당하고 있습니다. 
+- 미리 약속한 스타일 속성들을 통해 웹문서에 작성하면 이에 따라 웹문서가 디자인되어 화면에 표시됩니다. 
+- 웹문서에서 스타일은 글꼴, 색상, 정렬, 배치 방법 등 여러가지가 있습니다. 겉모습을 결정시키는 요소입니다.
+
+
+```html
+
+
+
+```</script>
+            <div class="toast-ui-viewer"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section-article-reply-box padding-0-10 con-min-width">
+    <div class="con">
+    <div id="disqus_thread"></div>
+    
+    <script>
+        var disqus_config = function () {
+            this.page.url = 'https://jasminhyun.xyz/article_detail_1.html';
+            this.page.identifier = 'article_detail_1.html';
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://phpblog-2.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    </div>
+</section>
+
+
+<div class="bottom-bar con-min-width">
           <div class="con flex flex-jc-c">
            <a href="index.html" class="logo">
               <span><i class="fab fa-envira"></i></span>

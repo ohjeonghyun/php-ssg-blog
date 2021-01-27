@@ -1,42 +1,53 @@
 
   <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWFE9C080L"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KWFE9C080L');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- 반응형 필수 -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- 제이쿼리 불러오기 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- 폰트어썸 불러오기 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-<!-- 토스트 UI 시작 -->
-<!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
-
-<!-- 토스트 UI 에디터, 자바스크립트 코어 -->
-<script defer src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
-
-<!-- 코드 미러 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css" />
-<!-- 토스트 UI 에디터, CSS 코어 -->
-<link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
-
-<!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
-<script defer src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js"></script>
-<!-- 토스트 UI 끝 -->
-
-
-<link rel="stylesheet" href="common.css">
-    <script defer src="common.js"></script>
     <title>디자이너 오정현</title>
-</head>
-<body>
 
+    <!-- 반응형 필수 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <!-- 제이쿼리 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- 폰트어썸 불러오기 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- 토스트 UI 시작 -->
+    <!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
+
+    <!-- 토스트 UI 에디터, 자바스크립트 코어 -->
+    <script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js" defer></script>
+
+    <!-- 코드 미러 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css" />
+    <!-- 토스트 UI 에디터, CSS 코어 -->
+    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
+
+    <!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
+    <script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js" defer></script>
+    <!-- 토스트 UI 끝 -->
+
+    <link rel="stylesheet" href="/css/common.css">
+    <script src="/js/common.js" defer></script>
+</head>
+
+<body>
 
 
   
@@ -258,9 +269,214 @@
   <div class="con">
     <div class="article-list-box">
       <ul>
-        
-Warning: Invalid argument supplied for foreach() in C:\Users\SBS-\Documents\GitHub\php-ssg-blog\index.html on line 25
-      </ul>
+                <li>
+          <h1 class="article-list-box__title"><a href="article_detail_5.html">CSS  색</a></h1>
+          <div class="article-list-box__reg-date">2020-01-21 17:28:15</div>
+          <div class="article-list-box__writer">
+            <span>오정현</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_CSS.html">#CSS</a>          </div>
+          <div class="article-list-box__body">
+            <script type="text/x-template"># 개요
+
+CSS에서 색을 표현하는 방법에는 다음과 같이 세 가지 방법이 있습니다. 
+
+ 
+
+1. 색상 이름으로 표현
+
+2. RGB 색상값으로 표현
+
+3. 16진수 색상값으로 표현
+
+
+```html
+
+<style>
+
+    .blue { color: blue; }
+
+    .green { color: green; }
+
+    .silver { color: silver; }
+
+</style>
+
+
+<style>
+
+    .blue { color: rgb(0,0,255); }
+
+    .green { color: rgb(0,128,0); }
+
+    .silver { color: rgb(192,192,192); }
+
+</style>
+
+<style>
+
+    .blue { color: #0000FF; }
+
+    .green { color: #008000; }
+
+    .silver { color: #C0C0C0; }
+
+</style>
+
+
+```
+</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+                <li>
+          <h1 class="article-list-box__title"><a href="article_detail_4.html">CSS 기초 4</a></h1>
+          <div class="article-list-box__reg-date">2020-01-18 17:28:15</div>
+          <div class="article-list-box__writer">
+            <span>오정현</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_CSS.html">#CSS</a>          </div>
+          <div class="article-list-box__body">
+            <script type="text/x-template"># 개요
+
+스타일 적용의 우선순위
+위에서 설명한 스타일 적용 방법들이 혼합되어 사용될 경우, 최종적으로 적용되는 스타일은 다음 순서에 따라 결정됩니다.
+
+ 
+
+1. 인라인 스타일 (HTML 요소 내부에 위치함)
+
+2. 내부 / 외부 스타일 시트 (HTML 문서의 head 요소 내부에 위치함)
+
+3. 웹 브라우저 기본 스타일
+
+ 
+
+예를 들어 인라인 스타일이 적용된 태그는 내부나 외부 스타일 시트와는 상관없이 무조건 인라인 스타일이 적용됩니다.
+
+또한, 내부 스타일 시트와 외부 스타일 시트는 가장 마지막에 적용된 스타일 시트가 적용됩니다.
+
+- 
+```html
+<link rel="stylesheet" href="/examples/media/expand_style.css">
+
+...
+
+<h2>이 부분은 외부 스타일 시트만이 적용됩니다.</h2>
+
+<h2 style="color:maroon; text-decoration:line-through"> 이 부분은 인라인 스타일과 외부 스타일 시트가 둘 다 적용됩니다. </h2>
+
+
+```
+</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+                <li>
+          <h1 class="article-list-box__title"><a href="article_detail_3.html">CSS 기초 3</a></h1>
+          <div class="article-list-box__reg-date">2020-01-18 12:12:15</div>
+          <div class="article-list-box__writer">
+            <span>오정현</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_CSS.html">#CSS</a>          </div>
+          <div class="article-list-box__body">
+            <script type="text/x-template"># 개요
+
+CSS를 적용하는 방법
+HTML 문서에 CSS 스타일을 적용할 때에는 다음과 같이 세 가지 방법을 사용할 수 있습니다.
+
+ 
+
+1. 인라인 스타일(Inline style)
+
+2. 내부 스타일 시트(Internal style sheet)
+
+3. 외부 스타일 시트(External style sheet)
+
+인라인 스타일(Inline style)
+인라인 스타일이란 HTML 요소 내부에 style 속성을 사용하여 CSS 스타일을 적용하는 방법입니다.
+
+이러한 인라인 스타일은 해당 요소에만 스타일을 적용할 수 있습니다.
+
+
+- 
+
+```html
+<body>
+
+    <h2 style="color:green; text-decoration:underline">
+
+        인라인 스타일을 이용하여 스타일을 적용하였습니다.
+
+    </h2>
+
+</body>
+```
+
+</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+                <li>
+          <h1 class="article-list-box__title"><a href="article_detail_2.html">CSS 기초 2</a></h1>
+          <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+          <div class="article-list-box__writer">
+            <span>오정현</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_CSS.html">#CSS</a>          </div>
+          <div class="article-list-box__body">
+            <script type="text/x-template"># 개요
+- script 태그를 사용해야 한다.
+- src 속성으로 외부 스크립트를 불러올 수 있다.
+- defer 속성으로 html 엘리먼트 로딩까지 실행을 유보시킬 수 있다.
+- 자식 컨텐츠로 자바스크립트를 넣어서 사용할 수 있다.
+  
+# 예시 - 자식 컨텐츠로 자바스크립트를 넣어서 사용
+```html
+<t-script>
+var a = 10;
+</t-script>
+<div class="a"></div>
+```</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+                <li>
+          <h1 class="article-list-box__title"><a href="article_detail_1.html">CSS기초 1</a></h1>
+          <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+          <div class="article-list-box__writer">
+            <span>오정현</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_CSS.html">#CSS</a>          </div>
+          <div class="article-list-box__body">
+            <script type="text/x-template">
+
+# css 의미
+## 개요
+- Css는 웹문서에서 스타일을 담당하고 있습니다. 
+- 미리 약속한 스타일 속성들을 통해 웹문서에 작성하면 이에 따라 웹문서가 디자인되어 화면에 표시됩니다. 
+- 웹문서에서 스타일은 글꼴, 색상, 정렬, 배치 방법 등 여러가지가 있습니다. 겉모습을 결정시키는 요소입니다.
+
+
+```html
+
+
+
+```</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+              </ul>
     </div>
   </div>
 </section>
