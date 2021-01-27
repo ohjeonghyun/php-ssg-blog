@@ -304,7 +304,7 @@ overflow:hidden;
   width:100%;
 bottom:0;
   color:white;
-  background-color:#9cc31d;
+  background: linear-gradient(to bottom right, #44af38,#bcdf4c);
 padding-bottom:var(--mobile-top-bar__height);
   transition:left .3s;
   display:flex;
@@ -338,7 +338,7 @@ padding-bottom:var(--mobile-top-bar__height);
 
 /* 버텀바 시작 */
 .bottom-bar {
-  background-color:#9cc31d;
+  background: linear-gradient(to bottom right, #44af38,#bcdf4c);
   color:white;
   margin-top:30px;
 }
