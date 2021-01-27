@@ -248,6 +248,4 @@
   
   <!-- svg끝 -->
 
-    <script src="common.js"></script>
-</body>
-</html>
+ 
