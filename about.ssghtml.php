@@ -3,8 +3,8 @@
 require_once "data.php";
 require_once "head.php";
 
-$pageTitle = "{$siteTitle} - 주인장 소개";
-$pageDescription = "주인장에 대한 소개페이지 입니다.";
+$pageTitle = "{$siteTitle} - 디자이너 오정현";
+$pageDescription = "디자이너 오정현의 기술 블로그";
 
 require_once "head.php";
 ?>
