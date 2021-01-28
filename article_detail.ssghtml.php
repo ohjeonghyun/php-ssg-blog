@@ -6,8 +6,11 @@ if ( defined('STDIN') ) {
 require_once "data.php";
 
 $articleId = $_GET['id'];
-$selectedArticle = &getArticleById($articleId);
-$siteTitle .= " - " . $selectedArticle['title'];
+$selectedArticle = &getForPrintArticleById($articleId);
+$pageTitle = $selectedArticle['pageTitle'];
+$pageThumbUrl = $selectedArticle['pageThumbUrl'];
+$pageDescription = $selectedArticle['pageDescription'];
+$pageKeywordsStr = $selectedArticle['pageKeywordsStr'];
 
 require_once "head.php";
 ?>
@@ -51,7 +54,7 @@ require_once "head.php";
     
     <script>
         var disqus_config = function () {
-            this.page.url = 'https://jasminhyun.xyz/article_detail_<?=$articleId?>.html';
+            this.page.url = 'https://b.oa.gg/article_detail_<?=$articleId?>.html';
             this.page.identifier = 'article_detail_<?=$articleId?>.html';
         };
         (function() { // DON'T EDIT BELOW THIS LINE
