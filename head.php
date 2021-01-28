@@ -179,5 +179,6 @@ if ( !isset($pageThumbUrl) ) {
     <!-- 모바일 사이드 바 끝 -->
   
     <main>
-
+</body>
+</html>
  
