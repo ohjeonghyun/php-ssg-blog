@@ -23,6 +23,64 @@ $tagInfos = [
 
 // 태그정보 끝
 
+
+
+// 게시물 7
+
+$article7 = [];
+$article7["id"] = 7;
+$article7["title"] = "CSS  배경";
+$article7["regDate"] = "2020-01-29 14:43:15";
+$article7["writerName"] = "오정현";
+$article7["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article7["tags"]= ["CSS"]; 
+$article7["body"] = <<<'EOT'
+# 개요
+
+CSS에서 사용할 수 있는 대표적인 text 속성은 다음과 같습니다.
+
+ 
+
+1. color
+
+2. direction
+
+3. letter-spacing
+
+4. word-spacing
+
+5. text-indent
+
+6. text-align
+
+7. text-decoration
+
+8. text-transform
+
+9. line-height
+
+10. text-shadow
+
+color-	텍스트의 색상을 설정함.
+direction-	텍스트가 쓰이는 방향을 설정함.
+letter-spacing-	텍스트 내에서 문자 사이의 간격을 설정함.
+word-spacing-	텍스트 내에서 단어 사이의 간격을 설정함.
+text-indent-	단락의 첫 줄을 들여쓰기할지 안 할지를 설정함.
+text-align-	텍스트의 수평 방향 정렬을 설정함.
+text-decoration-	텍스트에 여러 가지 효과를 설정하거나 제거함.
+text-transform-	텍스트에 포함된 영문자에 대한 대소문자를 설정함.
+line-height-	텍스트의 줄 간격을 설정함.
+text-shadow-	텍스트에 그림자 효과를 설정함.
+unicode-bidi-	direction 속성과 같이 사용하여 텍스트의 기본 출력 방향을 설정함.
+vertical-align-	HTML 요소 내의 수직 방향 정렬을 설정함.
+white-space-	HTML 요소 내의 여백을 설정함.
+
+
+
+```
+
+EOT;
+
 // 게시물 6
 
 $article6 = [];
@@ -35,7 +93,7 @@ $article6["tags"]= ["CSS"];
 $article6["body"] = <<<'EOT'
 # 개요
 
-CCSS에서 사용할 수 있는 background 속성은 다음과 같습니다.
+CSS에서 사용할 수 있는 background 속성은 다음과 같습니다.
 
  
 
