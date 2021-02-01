@@ -300,6 +300,7 @@ $article1["body"] = <<<'EOT'
 ```
 EOT;
 
+
 // 데이터 정리
 $maxArticleId = getMaxArticleId();
 

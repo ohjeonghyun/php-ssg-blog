@@ -134,7 +134,7 @@ if ( !isset($pageThumbUrl) ) {
         </div>
       </div>
       <div>
-        <a href="#" class="logo height-100p">
+        <a href="index.ssghtml.php" class="logo height-100p">
         <span><i class="fab fa-envira"></i></span>
               <span>Design Jasmin</span>
         </a>
@@ -149,19 +149,19 @@ if ( !isset($pageThumbUrl) ) {
       <nav class="mobile-side-bar__menu-box-1">
         <ul>
           <li>
-            <a href="#" class="block">
+            <a href="index.ssghtml.php" class="block">
               <span><i class="fas fa-home"></i></span>
               <span>HOME</span>
             </a>
           </li>
           <li>
-            <a href="#" class="block">
+            <a href="about.ssghtml.php" class="block">
               <span><i class="far fa-address-card"></i></span>
               <span>ABOUT</span>
             </a>
           </li>
           <li>
-            <a href="#" class="block">
+            <a href="pf.ssghtml.php" class="block">
               <span><i class="fas fa-list-alt"></i></span>
               <span>PORTFOLIO</span>
             </a>

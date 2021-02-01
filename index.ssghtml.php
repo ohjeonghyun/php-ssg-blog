@@ -34,7 +34,7 @@ $articles = &getArticles();
             <?=getArticleTagsHtml($article["id"])?>
           </div>
           <div class="article-list-box__body">
-            <script type="text/x-template"><?=$article['body']?></script>
+            <script type="text/x-template"><?=$article["body"]?></script>
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
@@ -43,6 +43,10 @@ $articles = &getArticles();
     </div>
   </div>
 </section>
+
+<?php
+require_once "foot.php";
+?>
 
 <!-- svg시작 -->
 <div class="svgs">
@@ -138,6 +142,3 @@ $articles = &getArticles();
 
 <!-- svg끝 -->
 
-<?php
-require_once "foot.php";
-?>
