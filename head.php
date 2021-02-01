@@ -43,6 +43,51 @@ if ( !isset($pageThumbUrl) ) {
     <meta property="og:site_name" content="<?=$siteName?>" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="<?=$pageTitle?>" />
+    <?php
+if ( !isset($pageTitle) ) {
+  $pageTitle = $siteTitle;
+}
+
+if ( !isset($pageDescription) ) {
+  $pageDescription = $siteDescription;
+}
+
+if ( !isset($pageKeywordsStr) ) {
+  $pageKeywordsStr = $siteKeywordsStr;
+}
+
+if ( !isset($pageThumbUrl) ) {
+  $pageThumbUrl = $siteThumbUrl;
+}
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KWFE9C080L"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KWFE9C080L');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title><?=$pageTitle?></title>
+    <meta name="title" content="<?=$pageTitle?>" />
+    <meta name="description" content="<?=$pageDescription?>" />
+    <meta name="keywords" content="<?=$pageKeywordsStr?>" />
+    <meta name="copyright" content="<?=$siteName?>" />
+
+    <!-- OPENGRAPH -->
+    <meta property="og:site_name" content="<?=$siteName?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="<?=$pageTitle?>" />
     <meta property="og:description" content="<?=$pageDescription?>" />
     <meta property="og:image" content="<?=$pageThumbUrl?>" />
     <meta property="og:image:alt" content="<?=$siteName?>" />
@@ -79,6 +124,7 @@ if ( !isset($pageThumbUrl) ) {
     <script src="/js/common.js" defer></script>
 </head>
 
+    
 <body>
     
 <div class="body-content">
@@ -178,7 +224,6 @@ if ( !isset($pageThumbUrl) ) {
     </aside>
     <!-- 모바일 사이드 바 끝 -->
   
-    <main>
-</body>
-</html>
+  
+
  
