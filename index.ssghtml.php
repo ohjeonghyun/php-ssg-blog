@@ -18,6 +18,7 @@ $articles = &getArticles();
   </h1>
 </section>
 
+
 <section class="section-latest-articles con-min-width">
   <div class="con">
     <div class="article-list-box">
@@ -34,7 +35,7 @@ $articles = &getArticles();
             <?=getArticleTagsHtml($article["id"])?>
           </div>
           <div class="article-list-box__body">
-            <script type="text/x-template"><?=$article["body"]?></script>
+            <script type="text/x-template"><?=$article['body']?></script>
             <div class="toast-ui-viewer"></div>
           </div>
         </li>
