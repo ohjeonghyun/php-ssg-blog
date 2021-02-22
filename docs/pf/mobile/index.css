@@ -1,5 +1,6 @@
 body {
     margin:0;
+    padding:0;
   }
   
   ::-webkit-scrollbar-track
@@ -20,16 +21,35 @@ body {
   }
   
   .pic {
-    min-width:700px;
+    min-width:1280px;
     overflow:hidden;
   }
+
+.con {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+  
+.section-3 {
+  height:539px;
+}
+
+.section-4 {
+  height:644px;
+}
+
+.section-5 {
+  height:713px;
+}
   
   .pic > div {
     max-width:1500px;
- 
+ margin-left:auto;
+ margin-right;auto;
   }
   
-  .img > img {
+  .section > .img > img {
     width:100%;
     display:block;
   }
