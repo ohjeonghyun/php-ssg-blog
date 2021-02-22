@@ -1,0 +1,87 @@
+body {
+    margin:0;
+  }
+  
+  ::-webkit-scrollbar-track
+  {
+    background-color: white;
+  }
+  
+  ::-webkit-scrollbar
+  {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+  }
+  
+  ::-webkit-scrollbar-thumb
+  {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  }
+  
+  .pic {
+    min-width:700px;
+    overflow:hidden;
+  }
+  
+  .pic > div {
+    max-width:1280px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .img > img {
+    width:100%;
+    display:block;
+  }
+  
+  .pic>.section-2{
+    margin-top:80px;
+  }
+  
+  .pic>.section-3
+  {
+    margin-top:100px;
+  }
+  
+  .pic>.section-5{
+    margin-top:100px;
+  }
+  
+  .pic>.section-6
+  {
+    margin-top:100px;
+  }
+  
+  .pic>.section-7{
+    margin-top:80px;
+  }
+  
+  .pic>.section-8{
+    margin-top:60px;
+  }
+  
+  .pic>.section-9{
+    margin-top:80px;
+  }
+  
+  .pic>.section-10{
+    margin-top:90px;
+  }
+  
+  .pic>.section-18{
+    margin-top:100px;
+  }
+  .section-8 {
+    position:relative;
+  }
+  
+  .section-8 .part-1 {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    text-align:center;
+    overflow:hidden;
+   transform:scale(0.6);
+  }
