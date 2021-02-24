@@ -51,28 +51,23 @@ li {
 }
 
 .section-21-1 {
-
-  z-index:0;
-  margin-top:100px;
-
-
-}
-
-.section-22-11{
+  background-color:#ffe4e7;
   z-index:1;
+
+
 
 }
 
 .section-21-1::after {
   content:"";
   position:absolute;
-  top:42.1%;
+  top:21.87%;
+  height:1035px;
   left:0;
   right:0%;
   bottom:0;
-  width:1940px;
-  height:1035px;
-background-color:#ffe4e7;
+
+  background-color:#FFE4E7;
   z-index:-1;
 }
 
@@ -90,11 +85,9 @@ top:29.54%;
   left:0;
   right:0;
   bottom:0;
-  height:510px;
+  height:476px;
   background-color:#ffdede;
   z-index:-1;
-  
-  
 }
 
 
@@ -111,7 +104,7 @@ top:30%;
   left:0;
   right:0;
   bottom:0;
- height:1170px;
+  height:1131px;
   background-color:#FFE4E7;
   z-index:-1;
   
