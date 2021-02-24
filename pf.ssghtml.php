@@ -12,9 +12,11 @@ require_once "head.php";
       <i class="fas fa-list-ol"></i>
     </span>
     <span>
-      PORFOLIO
+      PORTFOLIO
     </span>
   </h1>
+
+  
 </section>
 
 <?php

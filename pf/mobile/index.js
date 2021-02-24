@@ -4,7 +4,7 @@ gsap.from('.section-2', {
   duration:1,
   scrollTrigger:{
     trigger:'.section-2',
-    markers:true,
+    markers:false,
     start:'40% bottom',
     toggleActions: 'restart none none none'
   }
@@ -16,7 +16,7 @@ gsap.from('.section-4', {
   duration:1,
   scrollTrigger:{
     trigger:'.section-4',
-    markers:true,
+    markers:false,
     start:'50% bottom',
     toggleActions: 'restart none none none'
   }
@@ -28,7 +28,7 @@ gsap.from('.section-5', {
   duration:1,
   scrollTrigger:{
     trigger:'.section-5',
-    markers:true,
+    markers:false,
     start:'10% bottom',
     toggleActions: 'restart none none none'
   }
@@ -41,7 +41,7 @@ gsap.from('.section-6', {
   duration:1,
   scrollTrigger:{
     trigger:'.section-6',
-    markers:true,
+    markers:false,
     start:'10% bottom',
     toggleActions: 'restart none none none'
   }
@@ -53,7 +53,7 @@ gsap.from('.section-7', {
   duration:1,
   scrollTrigger:{
     trigger:'.section-7',
-    markers:true,
+    markers:false,
     start:'30% bottom',
     toggleActions: 'restart none none none'
   }
@@ -69,7 +69,7 @@ gsap.from('.section-9', {
   duration:1,
   scrollTrigger:{
     trigger:'.section-9',
-    markers:true,
+    markers:false,
     start:'30% bottom',
     toggleActions: 'restart none none none'
   }
@@ -82,7 +82,7 @@ gsap.from('.last-page', {
   duration:1,
   scrollTrigger:{
     trigger:'.last-page',
-    markers:true,
+    markers:false,
     start:'10% bottom',
     toggleActions: 'restart none none none'
   }
@@ -95,7 +95,7 @@ gsap.from('.category', {
   duration:1,
   scrollTrigger:{
     trigger:'.category',
-    markers:true,
+    markers:false,
     start:'20% bottom',
     toggleActions: 'restart none none none'
   }
@@ -105,7 +105,7 @@ gsap.from('.category', {
 const Timeline__Section2__1 = gsap.timeline({
   scrollTrigger: {
     trigger: '.section-8',
-    markers:true,
+    markers:false,
     start:'top 70%',
     end:'bottom top',
     toggleActions: "restart none none none"
