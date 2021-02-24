@@ -73,22 +73,11 @@ li {
 
 
 .section-21-0 {
-
+height:1304px;
   z-index:1;
   margin-top:100px;
 }
 
-.section-21-0::after {
-  content:"";
-  position:absolute;
-top:29.54%;
-  left:0;
-  right:0;
-  bottom:0;
-  height:476px;
-  background-color:#ffdede;
-  z-index:-1;
-}
 
 
 .section-10 {
