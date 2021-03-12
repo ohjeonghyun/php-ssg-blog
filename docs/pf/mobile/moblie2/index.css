@@ -1,0 +1,933 @@
+
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+html { 
+ font-family: 'Jeju Myeongjo', serif;
+  overflow-x:hidden;
+
+}
+body,ul,li{
+  padding:0;
+  margin:0;
+  list-style:none;
+}
+
+
+
+
+.row::after{
+  content:"";
+  clear:both;
+  display:block;
+}
+
+.cell{
+  float:left;
+  box-sizing:border-box;
+}
+
+a{
+  color:inherit;
+  text-decoration:none;
+}
+.con-min-width{
+  min-width:1400px;
+
+}
+
+
+.flex{
+  display:flex;
+}
+
+.con{
+  margin-left:auto;
+  margin-right:auto;
+  max-width:1400px;
+
+ 
+}
+
+
+
+.member-bar{
+  position:fixed;
+  width:200px;
+  height:50px;
+  transition:background-color 0.3s;
+background-color:white;
+  border-radius:50px 0px 0px 50px;
+  top:50%;
+  bottom:0;
+  right:auto;
+  left:88%;
+ background-color:#D2CDBF;
+
+  z-index:20;
+  box-shadow:2px 2px 16px 0px rgba(0,0,0,0.2);
+}
+
+.member-bar > a{
+  display:block;
+  padding:18px;
+color:#706A5D;
+  font-weight:bold;
+    font-size:15px;  
+  text-align:center;
+}
+
+.member-bar:hover{
+
+    transition:background-color 0.3s
+}
+
+.main{
+  margin-top:140px;
+}
+
+
+header{
+    background-color:#EEEADD;
+
+}
+
+
+
+.img-box>img{
+  display:block;
+  width:100%;
+}
+
+
+
+/* 메뉴바 시작 */
+
+
+.menu-bar>.menu-box{
+margin-top:30px;
+
+
+}
+
+
+
+.logo-bar{
+  text-align:center;
+  margin-top:50px;
+
+}
+
+
+.menu-bar>.menu-box>ul>li:hover>ul{
+  opacity:1;
+    transition:opacity 0.4s;
+  
+}
+
+
+
+.menu-bar>.menu-box>ul>li>ul{
+  position:absolute;
+  z-index:5;
+  background-color:rgba(255,255,255,0.9);
+  top:100%;
+  left:5%;
+  box-shadow:2px 4px 20px 3px rgba(0,0,0,0.3);
+ 
+  padding:15px;
+  width:150px;
+  opacity:0;
+  transition:opacity 0.4s;
+  border-radius:0px 0px 45px 0px;
+
+}
+
+
+
+.menu-bar>.menu-box>ul>li>ul>li{
+text-align:center;
+padding:8px;
+
+}
+
+
+
+
+
+.menu-bar>.menu-box>ul>li{
+ float:left;
+  position:relative;
+  width:calc(100%/7);
+ 
+}
+
+.s-menu>ul{
+  justify-content:flex-end;
+  transform:translatex(-60px) translatey(30px);
+}
+.s-menu>ul>a{
+  font-size:12px;
+  padding:8px;
+  letter-spacing:0.5px;
+}
+
+.s-menu>ul>a:hover{
+  text-decoration:underline;
+
+}
+
+.menu-bar>.menu-box>ul>li>a{
+display:block;
+padding:30px;
+   text-align:center;
+  background-color:#EEEADD;
+  font-size:1rem;
+color:#0B0800;
+  z-index:1;
+  white-space:nowrap;
+  letter-spacing:1.5px;
+
+
+}
+
+
+
+.menu-bar>.menu-box>ul>li>ul>li:hover>a{
+  color:#b7a792;
+  text-decoration:underline;
+
+
+}
+
+
+ul>li>.main-text{
+  letter-spacing:0.3px;
+  font-size:18px;
+}
+ul>li>.title-text{
+  letter-spacing:1px;
+  font-size:2.2rem;
+}
+ul>li>.title-text>span{
+  font-size:3.5rem;
+}
+
+.menu-bar>.menu-box>ul>li:hover>ul{
+  opacity:1;
+
+  transition:height 0.2s, opacity 0.3s;
+
+}
+
+
+
+
+.menu-bar>.menu-box>ul>li>a{
+    z-index:2;
+     padding:30px;
+   
+   
+   }
+   
+   
+   
+   
+   .menu-bar>.menu-box>ul>li>a{
+   position:relative;
+   
+   
+   }
+   
+   
+   .menu-bar>.menu-box>ul>li:hover>a::after{
+     opacity:1;
+     transition:opacity 0.3s;
+   }
+   
+   
+   .menu-bar>.menu-box>ul>li>a::after{
+   content:"";
+     background-color:#b5a890;
+   position:absolute;
+     width:8px;
+     height:8px;
+     border-radius:100%;
+     top:8%;
+   left:48%;
+     opacity:0;
+       transition:opacity 0.3s;
+   }
+   
+   .menu-bar>.menu-box{
+     margin-top:55px;
+   }
+   
+   
+   
+   
+   
+   
+   .menu-bar>.menu-box>ul>li:hover>a{
+     color:#b5a890;
+     transition:color 0.4s;
+     font-weight:bold;
+     
+   }
+   
+
+
+   
+/* 메뉴바 끝 */
+
+
+
+/* 메인 상단 소개부분  시작 */
+
+.t-box-1>ul>li>.img-box>img{
+  transform:scale(0.7);
+
+}
+
+
+.t-box {
+  position:relative;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.t-box-1::after {
+  content:"";
+  position:absolute;
+top:32%;
+  left:0;
+  right:15%;
+  bottom:0;
+  height:315px;
+  background-color:#EEEADD;
+  z-index:-1;
+  width:1800px;
+  border-radius: 0px 120px 120px 0px;
+}
+
+.t-box-1{
+  margin-top:-80px;
+}
+
+.t-box>ul>li>.main-text{
+  font-size:16px;
+}
+
+.t-box-2{
+  margin-top:50px;
+}
+.t-box-3{
+  margin-top:100px;
+}
+
+.t-box-1>ul>li>.title-text{
+ transform:translatex(1000px)translatey(-500px);
+}
+
+.t-box-1>ul>li>.main-text{
+transform:translatex(1000px)translatey(-430px);
+}
+
+.t-box-2>ul>li>.title-text{
+ transform:translatex(1200px)translatey(-430px);
+}
+
+.t-box-2>ul>li>.main-text{
+ transform:translatex(1200px)translatey(-350px);
+}
+
+.t-box-3>ul>li>.title-text{
+ transform:translatex(500px)translatey(-500px);
+}
+
+.t-box-3>ul>li>.main-text{
+ transform:translatex(500px)translatey(-420px);
+}
+
+.t-box >ul>li>.title-text{
+  position:relative;
+  color:black;
+
+}
+.t-box >ul>li>.main-text{
+  position:relative;
+  color:black;
+}
+
+
+.t-box >ul>li>.title-text::after{
+  position:absolute;
+  width:350px;
+  height:3px;
+  content:"";
+  background-color:#DBD0B4;
+  top:98%;
+  left:0.5%;
+}
+.t-box-3 >ul>li>.title-text::after{
+  position:absolute;
+  width:400px;
+  height:3px;
+  content:"";
+  background-color:#DBD0B4;
+  top:105%;
+  left:0.5%;
+}
+
+.t-box-2 >ul>li>.title-text::after{
+  position:absolute;
+  width:280px;
+  height:3px;
+  content:"";
+  background-color:#EEEADD;
+  top:105%;
+  left:0.5%;
+}
+
+
+
+
+.t-box-1>ul>li>.img-box>img{
+  margin-left:200px;
+
+}
+
+
+.t-box-1>ul>li>.img-box,
+.t-box-3>ul>li>.img-box{
+  position:relative;
+  z-index:2;
+  
+ 
+}{
+  position:relative;
+  z-index:2;
+  
+ 
+}
+
+
+.t-box>ul>li{
+  position:relative;
+}
+
+.t-box-1>ul>li::after{
+  position:absolute;
+  content:"";
+  width:300px;
+  height:395px;
+  border:10px solid #E0CDB1;
+  top:45%;
+  z-index:1;
+  left:80%;
+}
+
+
+
+
+
+
+
+
+.t-box-2>ul>li>.img-box>img{
+  transform:translatex(500px)translatey(-46px);
+}
+.t-box-2::after {
+  
+  content:"";
+  position:absolute;
+top:18%;
+  left:10%;
+  right:0;
+  bottom:0;
+  height:340px;
+  background-color:#CAC2AD;
+  z-index:-1;
+  width:2100px;
+  border-radius:120px 0px 0px 120px;
+}
+
+.t-box-3>ul>li>.img-box>img{
+  transform:translatex(1180px)translatey(-120px);
+}
+
+
+.t-box-3>ul>li::after{
+  position:absolute;
+  content:"";
+  width:300px;
+  height:380px;
+  border:10px solid #BEAC92;
+  top:35%;
+  z-index:1;
+  left:215%;
+}
+
+
+
+
+.t-box-3::after {
+  
+  content:"";
+  position:absolute;
+top:6%;
+  left:15%;
+  right:0;
+  bottom:0;
+  height:320px;
+  background-color:#EEEADD;
+    border-radius:120px 0px 0px 120px;
+  z-index:-1;
+  width:1700px;
+}
+/* 메인 상단 소개부분  끝*/
+  
+
+
+
+
+
+
+
+.title-1{
+    position:relative;
+    text-align:center;
+    color:#6A5959;
+    margin-top:160px;
+    
+  } 
+
+
+.section-1{
+  position:absolute;
+  background-color:black;
+  width:20px;
+  height:2px;
+  left:50%;
+  top:60%;
+}
+
+.title-1>a>span:first-child{
+  font-size:2rem;
+}
+
+
+.item-box__1{
+  margin-top:50px;
+}
+
+  
+.item-box__1>ul>li{
+  width:calc(100%/4);
+  padding-left:6px;
+  padding-right:6px;
+  cursor:pointer;
+transition:background-color 0.2s;
+
+ 
+}
+
+  
+.item-box__1>ul>li:nth-child(1):hover,
+.item-box__1>ul>li:nth-child(2):hover,
+.item-box__1>ul>li:nth-child(3):hover,
+.item-box__1>ul>li:nth-child(4):hover{
+  background-color:#EEEADD;
+transition:background-color 0.2s;
+}
+
+
+.item-box__1>ul>li>.prod-name{
+  color:gray;
+  margin-top:10px;
+  font-size:15.6px;
+  text-align:center;
+  transition:color 0.2s;
+}
+
+
+
+.item-box__1>ul>li:hover>.prod-name,
+.item-box__1>ul>li:hover>.prod-2{
+  color:black;
+  transition:color 0.2s;
+
+}
+
+
+.t-box>ul>li>.img-box:hover>img{
+box-shadow:5px 8px 40px 5px rgba(0,0,0,0.2);
+ transition:box-shadow 0.4s;
+
+}
+.t-box>ul>li>.img-box>img{
+
+
+ transition:box-shadow 0.4s;
+
+}
+
+
+.item-box__1>ul>li>.prod-2{
+  color:gray;
+  margin-top:10px;
+  font-size:14.5px;
+  text-align:center;
+  letter-spacing:0.3px;
+  padding:5px;
+
+}
+
+.title-2{
+  margin-top:150px;
+
+
+}
+
+
+.title-2>span{
+  font-size:19px;
+}
+
+
+
+.item-box-2{
+  margin-top:20px;
+}
+
+
+
+.item-box__2>ul>li{
+
+}
+.item-box__2>ul>li>.prod-name{
+  color:gray;
+  margin-top:10px;
+  font-size:15.6px;
+  text-align:center;
+  transition:color 0.2s;
+}
+
+
+
+.item-box__2>ul>li:hover>.prod-name,
+.item-box__2>ul>li:hover>.prod-2{
+  color:black;
+  transition:color 0.2s;
+
+}
+
+
+
+
+
+
+.item-box__2>ul>li>.prod-2{
+  color:gray;
+  margin-top:10px;
+  font-size:14.5px;
+  text-align:center;
+  letter-spacing:1px;
+  padding:5px;
+
+}
+
+
+.mall-2>.con>.img-box>img{
+  transform:scale(0.8);
+margin-top:250px;
+ 
+}
+
+.section-1{
+  left:49.5%;
+}
+
+.section-2{
+  top:65%;
+  left:49.5%;
+}
+
+
+.item-box__2>ul>li{
+  width:calc(100%/4);
+  padding-left:6px;
+  padding-right:6px;
+  cursor:pointer;
+transition:background-color 0.2s;
+
+ 
+}
+
+.last-section__1> .title__1{
+  color:#6A5959;
+}
+
+
+.back-img>.title-text{
+  z-index:10;
+
+  font-size:2rem;
+  position:fixed;
+}
+
+.back-img{
+  
+  margin-top:100px;
+background-image:url(https://i.postimg.cc/qvdXCQCs/pexels-photo-280221.jpg);
+
+  width:100%;
+  height:100%;
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-size:cover;
+  position:absolute;
+  left:-0.2%;
+  background-position:center;
+
+
+
+}
+
+
+
+
+/* 아이템박스  시작 */
+
+
+
+.item-box-2{
+  margin-top:50px;
+}
+
+
+
+.item-box__1>ul>li>.img-box,
+.item-box__2>ul>li>.img-box{
+  transform:scale(0.8);
+margin:53px;
+
+
+  
+  
+}
+
+
+.a-box{
+  margin-top:100px;
+}
+
+.last-section__1{
+  font-size:2.5rem;
+ margin-top:400px;
+  text-align:center;
+ 
+}
+
+.a-box>.img-box>img{
+ transform:scale(0.9);
+}
+
+
+.dk-box>.title-box{
+  text-align:center;
+  margin-top:80px;
+  z-index:20;
+  color:white;
+ 
+}
+
+.dk-box>.title-box>span:first-child{
+  font-size:3rem;
+
+
+}
+.dk-box>.title-box-2{
+  margin-top:20px;
+font-size:19px;
+color:white;
+line-height:35px; 
+  text-align:center;
+}
+
+
+.banner-box{
+  text-align:center;
+  margin-top:50px;
+  transform:scale(0.8);
+}
+
+.item-box__2>ul>li>.img-box{
+  margin:0px;
+
+}
+
+
+
+
+
+
+.section-5{
+ 
+  width:100%;
+  height:2px;
+  background-color:#988144;
+  margin-top:2000px;
+
+}
+
+.last-title{
+ }
+
+
+.last-title>ul>li{
+  float:left;
+  width:calc(100%/3); 
+  text-align:center;
+}
+
+.last-title>ul>li>.n-1{
+margin-top:40px;
+ line-height:20px;
+}
+
+.last-title>ul>li>.n-1{
+margin-top:40px;
+ line-height:22px;
+  letter-spacing:0.6px;
+}
+
+
+
+.last-title>ul>li>.title__2{
+margin-top:30px;
+ color:#6A5959;
+  font-size:1.8rem;
+}
+
+
+
+
+.last-title>ul>li>.n-2{
+
+ line-height:35px;
+}
+
+
+
+
+.last-title>ul>li>a{
+  font-size:1.8rem;
+  color:#6A5959;
+}
+
+
+.last-title{
+ margin-top:150px;
+ 
+}
+
+
+.box__1{
+  margin-top:40px;
+}
+
+.box__1 >a {
+  font-size:15px;
+  margin:15px;
+border-radius:15px;
+  border:1px solid #CAC2AD;
+  padding:8px 30px;
+  transition:background-color 0.2s, color 0.2s;
+  text-align:center;
+  
+  
+}
+
+.box__1 >a:hover{
+  background-color:#CAC2AD;
+  color:white;
+   transition:background-color 0.2s, color 0.2s;
+}
+
+
+/* 아이템박스  끝*/
+
+
+/* 버텀바 시작 */
+.bottom-bar {
+ background-color:#EEEADD;
+  text-align:center;
+
+  margin-top:150px;
+  z-index:10;
+}
+
+.bottom-bar > .con {
+  padding-top:80px;
+  padding-bottom:50px;
+ 
+}
+
+.bottom-bar > .text__1{
+  padding-bottom:60px;
+  font-size:15px;
+line-height:18px;
+  
+}
+
+.bottom-bar>.con > .b-title>ul>li{
+  padding:10px;
+}
+
+
+.bottom-bar>.con > .b-title>.img__1{
+ justify-content:flex-end;
+}
+
+
+
+.bottom-bar>.con > .b-title{
+  margin-top:-15px;
+}
+
+
+.bottom-bar>.con > .b-title>ul>li>a{
+  font-size:15.5px;
+  font-weight:bold;
+}
+
+.bottom-bar>.con > .b-title>ul{
+  justify-content:flex-end;
+}
+
+
+
+
+
+/* 버텀바 끝 */
+
+/* 바디 콘텐트 시작 */
+.body-content {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+
+
+
+.body-content > main {
+  flex-grow:1;
+}
+
+
+/* 바디 콘텐트 끝 */
+
+
+
