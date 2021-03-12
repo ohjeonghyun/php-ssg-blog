@@ -1,0 +1,90 @@
+.con{
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1200px;
+  }
+  
+  .main-box{
+  
+   width:500px;
+  
+  transition:transform 0.3s;
+  
+  position:relative;
+  }
+  
+  
+  .img-box>img{
+    width:100%;
+    display:block;
+       transition:transform 0.5s;
+  }
+  
+  .main-box>a>.img-box{
+    overflow:hidden;
+    position:relative;
+  
+  }
+  
+  .main-box:hover>a>.img-box::before{
+    opacity:1;
+    transition:opacity 0.4s;
+  }
+  
+  .main-box:hover>a>.img-box::after{
+    opacity:1;
+    background-color:rgba(255,255,255,0.5);
+  
+    
+  
+  }
+  
+  .main-box>a>.img-box:hover>img
+  {
+    transform:scale(1.2);
+    transition:transform 0.5;
+  
+  
+  }
+  
+  
+  .main-box>a>.img-box::before{
+    content:"";
+   opacity:0;
+    background-color:rgba(0,0,0,.5);
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    transition:opacity 0.4s;
+    z-index:1;
+    
+  }
+  
+  .main-box>a>.img-box::after{
+    position:absolute;
+    opacity:0;
+    top:0;
+    left:0;
+  z-index:1;
+    content:"VIEW MORE";
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%) translateY(-50%);
+    color:white;
+    font-weight:bold;
+    border:2px solid white;
+  padding:5px 15px;
+  
+  
+  
+    border-radius:5px;
+  
+    transition: opacity .4s;
+    z-index:2;
+  
+    font-weight:bold;
+  }
+  
