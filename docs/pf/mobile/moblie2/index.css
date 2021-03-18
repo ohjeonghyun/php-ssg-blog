@@ -347,6 +347,9 @@ transform:translatex(1000px)translatey(-430px);
   
  
 }
+
+
+
 {
   position:relative;
   z-index:2;
@@ -376,6 +379,7 @@ transform:translatex(1000px)translatey(-430px);
 
 
 
+/*  메뉴바 시작 */
 .menu-bar>.menu-box>ul>li>a{
  z-index:2;
   padding:30px;
@@ -427,6 +431,14 @@ left:48%;
   font-weight:bold;
   
 }
+
+
+
+/*  메뉴바 끝 */
+
+
+/*  상단 스토리 부분 시작 */
+
 
 .t-box-2>ul>li>.img-box>img{
   transform:translatex(500px)translatey(-46px);
@@ -503,7 +515,13 @@ top:6%;
 
 
 
+/*  상단 스토리 부분 끝 */
 
+
+
+
+
+/*  아이템 박스 시작 */
 
 
 .item-box__1{
@@ -658,6 +676,13 @@ transition:background-color 0.2s;
 }
 
 
+
+
+/*  아이템 박스 끝 */
+
+/*  배경이미지 시작 */
+
+
 .back-img>.title-text{
   z-index:10;
 
@@ -684,6 +709,10 @@ background-image:url(https://i.postimg.cc/qvdXCQCs/pexels-photo-280221.jpg);
 }
 
 
+/*  배경이미지 끝 */
+
+
+/* 아이템 박스 2 시작  */
 
 .item-box-2{
   margin-top:50px;
@@ -700,6 +729,12 @@ margin:53px;
   
   
 }
+
+
+/*  아이템 박스 2 끝 */
+
+
+/*  이미지 배경박스 시작 */
 
 
 .a-box{
@@ -738,6 +773,10 @@ color:white;
 line-height:35px; 
   text-align:center;
 }
+
+
+
+/*  이미지 배경박스 끝 */
 
 
 .banner-box{
@@ -817,6 +856,9 @@ margin-top:30px;
 }
 
 
+/* 하단바 버튼 시작 */
+
+
 .box__1{
   margin-top:40px;
 }
@@ -838,6 +880,31 @@ border-radius:15px;
   color:white;
    transition:background-color 0.2s, color 0.2s;
 }
+
+
+
+
+/* 하단바 버튼 끝 */
+
+
+/* 스크롤바 시작 */
+
+::-webkit-scrollbar
+{
+  width: 12px;
+  height: 5px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background-image: linear-gradient(45deg, #D2CDBF 0%, #CAC2AD  99%,   #D2CDBF 100%);
+}
+
+
+
+/* 스크롤바 끝*/
+
 
 
 /* 버텀바 시작 */
