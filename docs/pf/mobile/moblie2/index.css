@@ -100,11 +100,9 @@ header{
 
 
 
-/* 메뉴바 시작 */
-
-
 .menu-bar>.menu-box{
 margin-top:30px;
+
 
 
 }
@@ -112,7 +110,7 @@ margin-top:30px;
 
 
 .logo-bar{
-  text-align:center;
+  text-align:left;
   margin-top:50px;
 
 }
@@ -124,6 +122,10 @@ margin-top:30px;
   
 }
 
+.menu-bar{
+  margin-top:-70px;
+  margin-left:260px;
+}
 
 
 .menu-bar>.menu-box>ul>li>ul{
@@ -132,13 +134,13 @@ margin-top:30px;
   background-color:rgba(255,255,255,0.9);
   top:100%;
   left:5%;
-  box-shadow:2px 4px 20px 3px rgba(0,0,0,0.3);
+  box-shadow:2px 4px 20px 1px rgba(0,0,0,0.2);
  
   padding:15px;
-  width:150px;
+  width:90px;
   opacity:0;
   transition:opacity 0.4s;
-  border-radius:0px 0px 45px 0px;
+  border-radius:0px 0px 15px 0px;
 
 }
 
@@ -147,6 +149,7 @@ margin-top:30px;
 .menu-bar>.menu-box>ul>li>ul>li{
 text-align:center;
 padding:8px;
+  font-size:14px;
 
 }
 
@@ -179,9 +182,10 @@ padding:8px;
 .menu-bar>.menu-box>ul>li>a{
 display:block;
 padding:30px;
-   text-align:center;
-  background-color:#EEEADD;
-  font-size:1rem;
+   text-align:right;
+
+
+  font-size:0.8rem;
 color:#0B0800;
   z-index:1;
   white-space:nowrap;
@@ -219,70 +223,6 @@ ul>li>.title-text>span{
 
 }
 
-
-
-
-.menu-bar>.menu-box>ul>li>a{
-    z-index:2;
-     padding:30px;
-   
-   
-   }
-   
-   
-   
-   
-   .menu-bar>.menu-box>ul>li>a{
-   position:relative;
-   
-   
-   }
-   
-   
-   .menu-bar>.menu-box>ul>li:hover>a::after{
-     opacity:1;
-     transition:opacity 0.3s;
-   }
-   
-   
-   .menu-bar>.menu-box>ul>li>a::after{
-   content:"";
-     background-color:#b5a890;
-   position:absolute;
-     width:8px;
-     height:8px;
-     border-radius:100%;
-     top:8%;
-   left:48%;
-     opacity:0;
-       transition:opacity 0.3s;
-   }
-   
-   .menu-bar>.menu-box{
-     margin-top:55px;
-   }
-   
-   
-   
-   
-   
-   
-   .menu-bar>.menu-box>ul>li:hover>a{
-     color:#b5a890;
-     transition:color 0.4s;
-     font-weight:bold;
-     
-   }
-   
-
-
-   
-/* 메뉴바 끝 */
-
-
-
-/* 메인 상단 소개부분  시작 */
-
 .t-box-1>ul>li>.img-box>img{
   transform:scale(0.7);
 
@@ -317,6 +257,8 @@ top:32%;
 .t-box>ul>li>.main-text{
   font-size:16px;
 }
+
+
 
 .t-box-2{
   margin-top:50px;
@@ -363,7 +305,7 @@ transform:translatex(1000px)translatey(-430px);
 .t-box >ul>li>.title-text::after{
   position:absolute;
   width:350px;
-  height:3px;
+  height:1.5px;
   content:"";
   background-color:#DBD0B4;
   top:98%;
@@ -372,7 +314,7 @@ transform:translatex(1000px)translatey(-430px);
 .t-box-3 >ul>li>.title-text::after{
   position:absolute;
   width:400px;
-  height:3px;
+  height:1.5px;
   content:"";
   background-color:#DBD0B4;
   top:105%;
@@ -382,7 +324,7 @@ transform:translatex(1000px)translatey(-430px);
 .t-box-2 >ul>li>.title-text::after{
   position:absolute;
   width:280px;
-  height:3px;
+  height:1.5px;
   content:"";
   background-color:#EEEADD;
   top:105%;
@@ -404,7 +346,8 @@ transform:translatex(1000px)translatey(-430px);
   z-index:2;
   
  
-}{
+}
+{
   position:relative;
   z-index:2;
   
@@ -433,6 +376,57 @@ transform:translatex(1000px)translatey(-430px);
 
 
 
+.menu-bar>.menu-box>ul>li>a{
+ z-index:2;
+  padding:30px;
+
+
+}
+
+
+
+
+.menu-bar>.menu-box>ul>li>a{
+position:relative;
+
+
+}
+
+
+.menu-bar>.menu-box>ul>li:hover>a::after{
+  opacity:1;
+  transition:opacity 0.3s;
+}
+
+
+.menu-bar>.menu-box>ul>li>a::after{
+content:"";
+  background-color:#b5a890;
+position:absolute;
+  width:8px;
+  height:8px;
+  border-radius:100%;
+  top:8%;
+left:48%;
+  opacity:0;
+    transition:opacity 0.3s;
+}
+
+.menu-bar>.menu-box{
+  margin-top:55px;
+}
+
+
+
+
+
+
+.menu-bar>.menu-box>ul>li:hover>a{
+  color:#b5a890;
+  transition:color 0.4s;
+  font-weight:bold;
+  
+}
 
 .t-box-2>ul>li>.img-box>img{
   transform:translatex(500px)translatey(-46px);
@@ -485,18 +479,7 @@ top:6%;
   z-index:-1;
   width:1700px;
 }
-
-
-/* 메인 상단 소개부분  끝*/
-  
-
-
-
-
-
-
-
-.title-1{
+  .title-1{
     position:relative;
     text-align:center;
     color:#6A5959;
@@ -519,8 +502,12 @@ top:6%;
 }
 
 
+
+
+
+
 .item-box__1{
-  margin-top:50px;
+  margin-top:150px;
 }
 
   
@@ -698,11 +685,6 @@ background-image:url(https://i.postimg.cc/qvdXCQCs/pexels-photo-280221.jpg);
 
 
 
-
-/* 아이템박스  시작 */
-
-
-
 .item-box-2{
   margin-top:50px;
 }
@@ -726,7 +708,7 @@ margin:53px;
 
 .last-section__1{
   font-size:2.5rem;
- margin-top:420px;
+ margin-top:400px;
   text-align:center;
  
 }
@@ -858,9 +840,6 @@ border-radius:15px;
 }
 
 
-/* 아이템박스  끝*/
-
-
 /* 버텀바 시작 */
 .bottom-bar {
  background-color:#EEEADD;
@@ -930,6 +909,8 @@ line-height:18px;
 
 
 /* 바디 콘텐트 끝 */
+
+
 
 
 
