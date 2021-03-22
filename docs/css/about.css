@@ -3,6 +3,11 @@
     margin-right:auto;
     max-width:1200px;
   }
+
+
+  .con-min-width{
+    min-width:1200px;
+  }
   
   .main-box{
   
