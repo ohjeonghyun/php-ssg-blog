@@ -830,7 +830,7 @@ z-index:-1;
 
 
 .a-box{
-  margin-top:-120px;
+  margin-top:-50px;
 }
 
 .last-section__1{
@@ -844,7 +844,7 @@ z-index:-1;
 
 .last-section__1>.title__1{
   z-index:100;
-  transform:translatey(-200px);
+  transform:translatey(-120px);
 }
 
 
